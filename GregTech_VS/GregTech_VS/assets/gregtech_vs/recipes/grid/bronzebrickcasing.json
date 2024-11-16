@@ -1,0 +1,38 @@
+﻿{
+  "ingredientPattern": "TTT,TWT,BBB",
+  "width": 3,
+  "height": 3,
+  "ingredients": {
+    "T": {
+      "type": "item",
+      "code": "game:metalplate-*",
+      "name": "metal",
+      "allowedVariants": [
+        "bismuthbronze",
+        "tinbronze",
+        "blackbronze"
+      ]
+    },
+    "B": {
+      "type": "block",
+      "code": "game:claybricks-*",
+      "name": "type",
+      "allowedVariants": [
+        "blue",
+        "fire",
+        "red",
+        "brown"
+      ]
+    },
+    "W": {
+      "type": "item",
+      "code": "game:wrench-*",
+      "isTool": true
+    }
+  },
+  "output": {
+    "type": "block",
+    "code": "bronzebrickcasing"
+  }
+}
+

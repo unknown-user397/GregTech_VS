@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "gregtech_vs",
+    "name": "GregTech_VS",
+    "authors": [
+        "UnknownUser88"
+    ],
+    "description": "To be added",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "code": "lowsolidsteamboiler",
+  "variantgroups": [
+    {
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+  ],
+  "creativeinventory": { "general": [ "*-north" ] },
+  "shape": {
+    "base": "block/steamboiler",
+    "rotateYByType": {
+      "*-north": 0,
+      "*-east": 270,
+      "*-south": 180,
+      "*-west": 90
+    }
+  },
+  "behaviors": [
+    {
+      "name": "HorizontalOrientable",
+      "properties": { "dropBlockFace": "north" }
+    }
+  ],
+  "textures": {
+    "red2": { "base": "game:block/clay/brick/red2" },
+    "tinbronze42": { "base": "game:block/metal/sheet/tinbronze4" },
+    "tinbronze5": { "base": "game:block/metal/sheet/tinbronze5" },
+    "Untitled": { "base": "game:block/black" }
+  }
+}

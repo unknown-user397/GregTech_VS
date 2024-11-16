@@ -1,0 +1,11 @@
+﻿{
+  "code": "bronzebrickcasing",
+  "creativeinventory": { "general": [ "*" ] },
+  "shape": {
+    "base": "block/bronzebrickcasing"
+  },
+  "textures": {
+    "red2": { "base": "game:block/clay/brick/red2" },
+    "tinbronze5": { "base": "game:block/metal/sheet/tinbronze5" }
+  }
+}
