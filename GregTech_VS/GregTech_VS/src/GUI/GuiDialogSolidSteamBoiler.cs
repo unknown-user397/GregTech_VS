@@ -7,7 +7,7 @@ using Vintagestory.API.Client;
 
 namespace GregTech_VS.src.GUI
 {
-    internal class GuiDialogBlockEntityLowSolidSteamBoiler 
+    internal class GuiDialogSolidSteamBoiler 
     {
     }
 }
